@@ -44,23 +44,23 @@ const loadData = () => {
 
 // ai theke cleen kore 
 
-const loadPost = () => {
-  const url = "https://jsonplaceholder.typicode.com/posts";
-  fetch(url)
-    .then(response => response.json())
-    .then(json => {
-      // multiline comment 
-      console.log(json);
-      displayData(json);
-    })
-    .catch(err => console.error("Error:", err));
-};
+// const loadPost = () => {
+//   const url = "https://jsonplaceholder.typicode.com/posts";
+//   fetch(url)
+//     .then(response => response.json())
+//     .then(json => {
+//       // multiline comment 
+//       console.log(json);
+//       displayData(json);
+//     })
+//     .catch(err => console.error("Error:", err));
+// };
 
-const displayData = (postData) => {
-  postData.forEach(post => {
-    console.log(post);
-  });
-};
+// const displayData = (postData) => {
+//   postData.forEach(post => {
+//     console.log(post);
+//   });
+// };
 
 
 
