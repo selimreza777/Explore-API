@@ -1,9 +1,9 @@
 
-Explore-API
-Topic covered: JSON
+**Explore-API**  
+**Topic covered: JSON**  
 
-1 ---> JSON.stringify()
-2 ---> JSON.parse()
+**1 ---> JSON.stringify()**  
+**2 ---> JSON.parse()**  
 
 
 API শব্দটার ফুলফর্ম হলো Application Programming Interface।
